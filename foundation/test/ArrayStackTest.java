@@ -6,7 +6,7 @@ import org.junit.Test;
  * @Description:
  * @Date: 2019/5/5 16:12
  */
-public class MyTest {
+public class ArrayStackTest {
     @Test
     public void test() {
         ArrayStack as = new ArrayStack(4);
