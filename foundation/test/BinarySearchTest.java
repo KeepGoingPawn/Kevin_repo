@@ -13,4 +13,11 @@ public class BinarySearchTest {
         int res = BinarySearch.recursion(arr,0,arr.length-1,5);
         System.out.println(res);
     }
+
+    @Test
+    public void test2(){
+        int[] arr = {1,5,6,7,8,12,14};
+        int res = BinarySearch.circle(arr,0,arr.length-1,14);
+        System.out.println(res);
+    }
 }

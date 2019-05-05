@@ -24,5 +24,22 @@ public class BinarySearch {
         }
         return -1;
     }
+
+    public static int circle(int[] array,int start, int end, int target){
+        int low = start;
+        int high = end;
+        while(low <= high){
+            int mid = (low + high)>>>1;
+            int midVal = array[mid];
+            if(midVal < target){
+                low = mid + 1;
+            }else if(midVal > target){
+                high = mid -1;
+            }else {
+                return mid;
+            }
+        }
+        return -1;
+    }
 }
 
