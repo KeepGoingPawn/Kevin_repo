@@ -8,6 +8,7 @@ package algorithms;
 public class ReverseBits {
 
     public static int reverseBits(int n) {
+        //无符号右移 左移不需要
         n = (n >>> 16) | (n << 16);
         n = ((n & 0xff00ff00) >>> 8) | ((n & 0x00ff00ff) << 8);
         n = ((n & 0xf0f0f0f0) >>> 4) | ((n & 0x0f0f0f0f) << 4);
