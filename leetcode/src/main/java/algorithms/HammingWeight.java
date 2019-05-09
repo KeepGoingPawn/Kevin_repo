@@ -24,5 +24,6 @@ public class HammingWeight {
         System.out.println(Integer.MAX_VALUE);
         int count = hammingWeight(n);
         System.out.println(count);
+
     }
 }
