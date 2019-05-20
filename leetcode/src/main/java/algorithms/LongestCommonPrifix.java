@@ -1,5 +1,7 @@
 package algorithms;
 
+import java.util.Arrays;
+
 /**
  * @Author:Kevin
  * @Description:
@@ -19,8 +21,11 @@ public class LongestCommonPrifix {
     }
 
     public static void main(String[] args) {
-        String[] strs = {"s7as","saa1s","saa11"};
+        String[] strs = {"saas","sbas1","sab"};
+        Arrays.sort(strs);
         String s = longestCommonPrefix(strs);
-        System.out.println(s);
+        String sa= "sad";
+        //验证String.indexOf("a")==0
+        System.out.println(sa.indexOf("sa")==0);
     }
 }
