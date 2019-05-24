@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.easy;
 
 /**
  * @Author:Kevin
