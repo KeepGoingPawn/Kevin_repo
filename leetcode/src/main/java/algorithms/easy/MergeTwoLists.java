@@ -20,9 +20,9 @@ public class MergeTwoLists {
     public static void main(String[] args) {
         Node l1 = new Node(0);
         l1.next = new Node(1);
-        l1.next.next = new Node(3);
+
         Node l2 = new Node(1);
-        l2.next = new Node(2);
+//        l2.next = new Node(2);
         MergeTwoLists mtl = new MergeTwoLists();
         Node l3 = mtl.mergeTwoLists(l1,l2);
         System.out.println(l3.toString());
