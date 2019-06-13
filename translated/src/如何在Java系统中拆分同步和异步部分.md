@@ -5,7 +5,7 @@
 &nbsp;
 [作者：Petr Bouda](https://github.com/petrbouda)
 &nbsp;
-[译者：KeepGoingPawn](https://github.com/KeepGoingPawn)
+[译者：KeepGoingPawn](https://blog.csdn.net/hengji666)
 &nbsp;
 
 ## 1.了解如何使用Java通过同步和异步组件拆分系统
