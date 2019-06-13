@@ -7,35 +7,35 @@ package search;
  */
 public class BinarySearch {
 
-    public static  int recursion(int[]array, int start, int end, int target){
+    public static int recursion(int[] array, int start, int end, int target) {
         int low = start;
         int high = end;
-        int mid = (low + high)>>>1;
+        int mid = (low + high) >>> 1;
         int midVal = array[mid];
-        if( target < array[low] || target > array[high] ){
+        if (target < array[low] || target > array[high]) {
             return -1;
         }
-        if(midVal > target){
-            return recursion(array,low,mid-1,target);
-        }else if(midVal < target){
-            return recursion(array,mid+1,high,target);
-        }else if(midVal == target){
+        if (midVal > target) {
+            return recursion(array, low, mid - 1, target);
+        } else if (midVal < target) {
+            return recursion(array, mid + 1, high, target);
+        } else if (midVal == target) {
             return mid;
         }
         return -1;
     }
 
-    public static int circle(int[] array,int start, int end, int target){
+    public static int circle(int[] array, int start, int end, int target) {
         int low = start;
         int high = end;
-        while(low <= high){
-            int mid = (low + high)>>>1;
+        while (low <= high) {
+            int mid = (low + high) >>> 1;
             int midVal = array[mid];
-            if(midVal < target){
+            if (midVal < target) {
                 low = mid + 1;
-            }else if(midVal > target){
-                high = mid -1;
-            }else {
+            } else if (midVal > target) {
+                high = mid - 1;
+            } else {
                 return mid;
             }
         }

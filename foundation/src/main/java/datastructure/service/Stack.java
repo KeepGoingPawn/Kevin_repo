@@ -1,4 +1,5 @@
 package datastructure.service;
+
 /**
  * @Author:Kevin
  * @Description:
@@ -6,22 +7,25 @@ package datastructure.service;
  */
 public interface Stack<E> {
     /**
-      * @Description: entry stack
-      * @Date: 2019/5/5 14:57
-      * @Param:
-      * @Return:
-      */
+     * @Description: entry stack
+     * @Date: 2019/5/5 14:57
+     * @Param:
+     * @Return:
+     */
     void push(int item);
+
     /**
      * @Description out stack
-     * @Date  17:29
+     * @Date 17:29
      **/
     int pop();
+
     /**
      * @Description is empty
-     * @Date  17:30
+     * @Date 17:30
      **/
     boolean isEmpty();
+
     /**
      * @Description see the top element of stack
      * @Date 2019/4/29 17:32

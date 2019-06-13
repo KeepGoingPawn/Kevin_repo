@@ -10,16 +10,16 @@ import datastructure.service.Stack;
 public class ArrayStack implements Stack {
     private int size;
     private int top;
-    private int[]data;
+    private int[] data;
 
-    public ArrayStack(int size){
+    public ArrayStack(int size) {
         data = new int[size];
         top = -1;
         this.size = size;
     }
 
     public void push(int item) {
-        data[top+1] = item;
+        data[top + 1] = item;
         top++;
     }
 
@@ -34,9 +34,9 @@ public class ArrayStack implements Stack {
     }
 
     public Object peek() {
-        if(isEmpty()){
+        if (isEmpty()) {
             throw new NullPointerException();
-        }else {
+        } else {
             return data[top];
         }
     }
