@@ -10,7 +10,7 @@
 
   微服务架构中有许多组件，因此这会带来更多的故障点。 故障可能由多种原因引起 - 代码中的错误和异常，新代码的发布，部署问题，硬件故障，数据中心故障，不良的架构，缺乏单元测试，不可靠的网络通信，服务的依赖， 等等
 
-  ![complexities-in-a-microservice-architecture](https://github.com/KeepGoingPawn/Kevin_repo/tree/master/translated/src/static/complexities-in-a-microservice-architecture.png)
+  ![complexities-in-a-microservice-architecture](static/complexities-in-a-microservice-architecture.png)
 
 ## 2. Netflix OSS to the Rescue
 
