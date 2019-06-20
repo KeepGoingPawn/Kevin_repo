@@ -22,7 +22,7 @@
 
   通过一些简单的注释，您可以快速启用和配置应用程序内的通用模块，并使用经过实战考验的Netflix组件构建大型分布式系统。 提供的模块包括服务发现(Eureka), 断路器 (Hystrix), 智能路由（Zuul）和客户端负载平衡（Ribbon）。
 
-  ![netflix-oss-framework](D:\File\translating\netflix-oss-framework.png)
+  ![netflix-oss-framework](static/netflix-oss-framework.png)
 
 ### 2.1. Netflix OSS的问题
 
@@ -36,13 +36,13 @@
 
 - 需要额外的工具来提高微服务体系结构的监控性。
 
-  ![netflix-oss-issues](D:\File\translating\netflix-oss-issues.png)
+  ![netflix-oss-issues](static/netflix-oss-issues.png)
 
 ## 3. 什么是Sidecar设计模式
 
   sidecar 设计模式在云原生社区中越来越受欢迎并得到更广泛的采用。 构建具有高度可扩展性，弹性，安全性和可监控性的微服务架构具有挑战性。 Service Mesh架构的发展已经改变了游戏规则。它将与微服务架构相关的复杂性转移到单独的基础架构层，并提供许多功能，如负载平衡，服务发现，流量管理，断路，遥测，故障注入等。
 
-  ![sidecar-design-pattern](D:\File\translating\sidecar-design-pattern.png)
+  ![sidecar-design-pattern](static/sidecar-design-pattern.png)
 
 ## 3.1. 使用Sidecar模式的好处
 
@@ -56,7 +56,7 @@
 
   来自Lyft的[Envoy](https://www.envoyproxy.io/)是为云原生应用程序设计的最流行的开源代理。 Envoy与每项服务并行运行，并以平台无关的方式提供必要的功能。服务的所有流量都通过Envoy代理流通。
 
-  ![istio-sidecar](D:\File\translating\istio-sidecar.png)
+  ![istio-sidecar](static/istio-sidecar.png)
 
 ## 4. Istio 架构
 
@@ -68,7 +68,7 @@
 
 - 数据面板的职责是处理服务之间的通信，并负责服务发现，负载均衡，流量管理，健康检查等功能。
 
-  ![istio-architecture-revamped](D:\File\translating\istio-architecture-revamped.png)
+  ![istio-architecture-revamped](static/istio-architecture-revamped.png)
 
   请参阅我的其他博客文章，了解有关Istio控制平面和数据平面的更多信息：
 
